@@ -11,8 +11,9 @@ export const ContactList = () => {
     const visibleContacts = [...contacts.filter(contact => contact.name.toLowerCase().includes(getfilter)),
         
   ];
-  console.log(visibleContacts)
-  console.log(deleteContact())
+  
+  //console.log(visibleContacts)
+
 
     return (
         
