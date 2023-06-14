@@ -15,8 +15,9 @@ import {
   } from 'redux-persist'
 
 const persistConfig = {
-    key: 'root',
-    storage,
+  key: 'root',
+  storage,
+blacklist: ['filter']
 }
 
   const rootReducer = combineReducers({
